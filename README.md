@@ -2,4 +2,4 @@
 Hello world
 
 
-First porgram on Git hub
+First program on Git hub
