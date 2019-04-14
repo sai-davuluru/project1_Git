@@ -1,0 +1,115 @@
+   30  apt-get install git
+   34  git --version
+   44  mkdir /opt/git
+   	   chmod 777 git
+   	   cd git
+   47  git config --global user.name "Sai Davuluru"
+   48  git config --global user.email "anusai1027@gmail.com"
+   50  git config --list
+   51  git help config
+   53  git config --help
+   55  touch test.py
+   56  chmod 777 test.py 
+   57  vi test.py 
+   58  git init
+   59  ls -la
+   60  rm -rf .git
+   61  ls -la
+   62  git init
+   63  ls -la
+   65  git status
+   66  touch test.html
+   67  chmod 777 test.html 
+   68  touch .gitignore
+   69  chmod 777 .gitignore 
+   70  vi .gitignore 
+   71  git status
+   72  ls -la
+   73  git add .gitignore 
+   74  git status
+   75  git add -A
+   76  git status
+   77  git reset
+   78  git status
+   79  git add -A
+   80  git status
+   81  git reset test.py
+   82  git status
+   83  git add -A
+   84  git status
+   85  git commit -m "changed the OS and reran the steps"
+   86  git status
+   87  git log
+   88  clear
+   89  pwd
+   90  git clone https://github.com/sai-davuluru/project1_Git /opt/git/project1_Git
+   91  ls -la
+   92  cd project1_Git/
+   93  ls -la
+   94  cd ..
+   95  ll
+   03  vi test.py 
+  108  git remote -v
+  109  git branch -a
+  110  ls -la
+  111  vi test.py 
+  112  clear
+  113  git add -A
+  114  git diff
+  115  git reset
+  116  git diff
+  117  pwd
+  119  git status
+  120  git add -A
+  121  git diff
+  122  vi test.py 
+  123  clear
+  124  git diff
+  126  git status
+  127  git add -A
+  128  git status
+  129  git commit -m "updated square function"
+  130  git pull origin master
+  132  git push origin master
+  134  git branch calc-square
+  135  git branch
+  136  git checkout calc-square 
+  137  git branch
+  138  subl test.py 
+  139  git status
+  140  git add -A
+  141  git commit -m "updated square function"
+  142  git pull origin master
+  143  git push -u origin calc-square 
+  144  git status
+  145  git branch -a
+  146  git checkout master
+  147  git pull origin master
+  148  git status
+  149  git branch -a
+  150  git pull origin master
+  151  git branch --merged
+  152  git merge calc-square 
+  155  git branch --merged
+  156  clear
+  157  git push origin master
+  158  git branch --merged
+  159  git branch -d calc-square 
+  161  git branch -a
+  162  git push origin --delete subtract
+  163  git push origin --delete calc-square
+  164  git branch -a
+  167  git branch allfunctions
+  168  git checkout allfunctions 
+  169  git branch -a
+  170  git branch status
+  171  subl test.py 
+  172  git status
+  173  git add -A
+  174  git commit -m "edited addition function"
+  175  git push -u origin allfunctions 
+  176  git checkout master
+  177  git pull origin master
+  178  git merge allfunctions 
+  179  git push origin master 
+  
