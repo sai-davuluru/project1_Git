@@ -1,0 +1,304 @@
+    1  python3 --version
+    2  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    3  python3 get-pip.py
+    4  pip install -U pip
+    5  clear
+    6  pip3 install awscli --upgrade --user
+    7  clear
+    8  aws --version
+    9  pip3 --version
+   10  python3 --version
+   11  python3 get-pip.py --user
+   12  ls -a ~
+   13  export PATH=~/.local/bin:$PATH
+   14  source ~/.bash_profile
+   15  pip3 --version
+   16  pip3 install awscli --upgrade --user
+   17  aws --version
+   18  which aws
+   19  which python3
+   20  ls -al /usr/bin/python3
+   21  history
+   22  exit
+   23  clear
+   24  usermod -aG sudo sai
+   25  exit
+   26  clear
+   27  aws --version
+   28  exit
+   29  apt-get update
+   30  apt-get install sublime-text
+   31  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+   32  sudo apt-get install apt-transport-https
+   33  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+   34  sudo apt-get update
+   35  sudo apt-get install sublime-text
+   36  pwd
+   37  cd /opt
+   38  ls
+   39  cd g
+   40  cd git
+   41  ll
+   42  cd project1_Git/
+   43  ll
+   44  subl test.py 
+   45  vi test.py 
+   46  pwd
+   47  ll
+   48  vi gitbasics.txt 
+   49  subl gitbasics.txt 
+   50  git pull origin master
+   51  git push -u origin master
+   52  git branch --merged
+   53  git branch --delete allfunctions 
+   54  git branch -a
+   55  git branch --delete status 
+   56  git branch -a
+   57  git branch --delete master
+   58  git branch status
+   59  git branch -a
+   60  git brnach --delete status
+   61  git branch --delete status
+   62  git branch status
+   63  git branch --delete status
+   64  git branch -a
+   65  git push -u origin master
+   66  exit
+   67  clear
+   68  apt-get install git
+   69  clear
+   70  git status
+   71  git -version
+   72  git --version
+   73  clear
+   74  pwd
+   75  cd /
+   76  cd opt
+   77  clear
+   78  ll
+   79  clear
+   80  mkdir git
+   81  chmod 777 git
+   82  cd git
+   83  clear
+   84  git --version
+   85  git config --global user.name "Sai Davuluru"
+   86  git config --global user.email "anusai1027@gmail.com"
+   87  git conifg --list
+   88  git config --list
+   89  git help config
+   90  got config --help
+   91  git config --help
+   92  pwd
+   93  touch test.py
+   94  chmod 777 test.py 
+   95  vi test.py 
+   96  git init
+   97  ls -la
+   98  rm -rf .git
+   99  ls -la
+  100  git init
+  101  ls -la
+  102  clear
+  103  git status
+  104  touch test.html
+  105  chmod 777 test.html 
+  106  touch .gitignore
+  107  chmod 777 .gitignore 
+  108  vi .gitignore 
+  109  git status
+  110  ls -la
+  111  git add .gitignore 
+  112  git status
+  113  git add -A
+  114  git status
+  115  git reset
+  116  git status
+  117  git add -A
+  118  git status
+  119  git reset test.py
+  120  git status
+  121  git add -A
+  122  git status
+  123  git commit -m "changed the OS and reran the steps"
+  124  git status
+  125  git log
+  126  clear
+  127  pwd
+  128  git clone https://github.com/sai-davuluru/project1_Git /opt/git/project1_Git
+  129  ls -la
+  130  cd project1_Git/
+  131  ls -la
+  132  cd ..
+  133  ll
+  134  mv test.* project1_Git/
+  135  mv .gitignore project1_Git/
+  136  clear
+  137  pwd
+  138  ll
+  139  cd project1_Git/
+  140  ls -la
+  141  vi test.py 
+  142  vp demopython.py test.py
+  143  cp demopython.py test.py 
+  144  cat test.py 
+  145  clear
+  146  git remote -v
+  147  git branch -a
+  148  ls -la
+  149  vi test.py 
+  150  clear
+  151  git add -A
+  152  git diff
+  153  git reset
+  154  git diff
+  155  pwd
+  156  git statis
+  157  git status
+  158  git add -A
+  159  git diff
+  160  vi test.py 
+  161  clear
+  162  git diff
+  163  giy status
+  164  git status
+  165  git add -A
+  166  git status
+  167  git commit -m "updated square function"
+  168  git pull origin master
+  169  pit push origin master
+  170  git push origin master
+  171  clear
+  172  git branch calc-square
+  173  git branch
+  174  git checkout calc-square 
+  175  git branch
+  176  subl test.py 
+  177  git status
+  178  git add -A
+  179  git commit -m "updated square function"
+  180  git pull origin master
+  181  git push -u origin calc-square 
+  182  git status
+  183  git branch -a
+  184  git checkout master
+  185  git pull origin master
+  186  git status
+  187  git branch -a
+  188  git pull origin master
+  189  git branch --merged
+  190  git merge calc-square 
+  191  git merged
+  192  git --merged
+  193  git branch --merged
+  194  clear
+  195  git push origin master
+  196  git branch --merged
+  197  git branch -d calc-square 
+  198  git brnach -a
+  199  git branch -a
+  200  git push origin --delete subtract
+  201  git push origin --delete calc-square
+  202  git branch -a
+  203  clear
+  204  ls -la
+  205  git branch allfunctions
+  206  git checkout allfunctions 
+  207  git branch -a
+  208  git branch status
+  209  subl test.py 
+  210  git status
+  211  git add -A
+  212  git commit -m "edited addition function"
+  213  git push -u origin allfunctions 
+  214  git checkout master
+  215  git pull origin master
+  216  git merge allfunctions 
+  217  git push origin master 
+  218  history > gitbasics.txt
+  219  subl gitbasics.txt 
+  220  git status
+  221  git branch -a
+  222  pull origin maser
+  223  pull origin master
+  224  git pull origin master
+  225  git push origin master
+  226  clear
+  227  ls -la
+  228  rm -rf demopython.py 
+  229  git pull origin master
+  230  git push -u origin master
+  231  git branch -a
+  232  git merge allfunctions 
+  233  git --merged
+  234  git branch --merged
+  235  exit
+  236  clear
+  237  cd /opt/git/
+  238  ll
+  239  cd project1_Git/
+  240  ls -la
+  241  clear
+  242  ls -ltr
+  243  ls -la
+  244  git status
+  245  git pull origin master
+  246  git add -A
+  247  git status
+  248  git commit -m "updated gitbasics"
+  249  git push -u origin master
+  250  git branch -a
+  251  git status
+  252  clear
+  253  ls -la
+  254  git status
+  255  git log
+  256  clear
+  257  git branch
+  258  subl test.py 
+  259  git status
+  260  git diff
+  261  git checkout test.py
+  262  git status
+  263  git diff
+  264  git status
+  265  git add -A
+  266  git status
+  267  git commit -m "Added Subtract"
+  268  git log
+  269  git commit --amend -m "completed square function"
+  270  git log
+  271  ls -la
+  272  touch test2.py
+  273  git status
+  274  git add -A
+  275  git commit --amend 
+  276  git log
+  277  git log --stat
+  278  git log
+  279  git branch
+  280  git log
+  281  git checkout subrtractfeature
+  282  git pull branch secondary branch
+  283  branch updatedtest2
+  284  git branch updatedtest2
+  285  git branch
+  286  git checkout updatedtest2 
+  287  git log
+  288  git cherry-pick cef1831
+  289  git commit --allow-empty
+  290  git log
+  291  clear
+  292  git checkout master
+  293  git log
+  294  clear
+  295  git reset soft
+  296  git reset --soft cef1831
+  297  git log
+  298  clear
+  299  git branch -a
+  300  clear
+  301  git status
+  302  clear
+  303  history
+  304  history > gitCommands.txt
